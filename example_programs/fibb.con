@@ -1,0 +1,39 @@
+# Fibbonaci Calculator in Conveyor!
+
+{print;
+    [log pops]$
+}
+
+{input;
+    ["Which term do you want in the Fibbonaci sequence? (counting from zero): " (print)]$ 
+    [take ston pops]$
+    
+    ?[log "0" exit]
+    :[++]
+    $
+    ?[log "1" exit]
+    :[++ (fibb)]
+    $
+}
+
+{print_result;
+    @fibb
+    [popn ntos (print)]$
+    [exit]$
+}
+
+{fibb;
+    @main
+    ?
+        [(print_result)]
+    :
+        [++]$
+    @fibb
+    [+ popn (fibb)]$
+}
+
+# Execution starts here
+@fibb
+[1 1]
+@main
+[0 (input)]$

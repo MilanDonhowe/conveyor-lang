@@ -1,0 +1,7 @@
+# Example of a subroutine
+
+{print;
+    [log pops]$
+}
+
+[(print) "Hello Subroutines!"]$

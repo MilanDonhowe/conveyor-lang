@@ -1,0 +1,11 @@
+# Example Loop Program
+# prints "I am in a loop" 4 times using a recursive subroutine
+
+# Subroutine
+{loop;
+    ?[log "Out of loop!" pops]
+    :[++ log "Inside of loop" pops (loop)]
+    $
+}
+
+[0 4 (loop)]$

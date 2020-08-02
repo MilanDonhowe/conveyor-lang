@@ -1,0 +1,18 @@
+
+Once I finish up all the points on the todo-list I plan to submit this
+language to the esoteric language wiki.
+
+
+TODO:
+--> Tidy Up && Modularize Code
+--> Upload to GitHub w/Docs
+--> Possibly move to a better parsing method... 
+    \-> maybe use a parser combinator library like "parsec"
+
+--> Add floating point support 
+    \->(should it be by its own queue or combined with the numeric?)
+
+
+Finished:
+--> subroutines now have their own operator queue
+--> Removed hacky rewind operator "!" in favor of recursive subroutines for looping.

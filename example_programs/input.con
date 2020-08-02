@@ -1,0 +1,8 @@
+# Validating input example by carefully managing the string queue
+
+[0 "Please enter 'hello'" "hello" log pops take strcmp cls]$
+?
+    [log "Thanks!"]
+:
+    [log "You didn't enter hello :C"]
+$
