@@ -1,7 +1,8 @@
+```
 |-> -> -> -> -> -> -> -> -> -> -> -> -> -> -> -> ->|
 | Conveyor is a queue-centric programming language |
 |-> -> -> -> -> -> -> -> -> -> -> -> -> -> -> -> ->|
-
+```
 # This file is under-construction!
 ## Info may be incorrect/misleading
 
@@ -9,7 +10,7 @@
 Usage:
 `python -m Conveyor [filename]`
 
-
+```
 Conveyor is a esoteric programming language which revolves around the
 manipulation of queues.  This language is currently implemented via
 an interpreter written in Python 3.7
@@ -23,7 +24,6 @@ In conveyor there are three types of queues:
 There are two "levels of computation" available in Conveyor, control operators
 which explicity direct program flow by direct queue-manipulations--and item operators
 which are operators which exist on the "operator" queue.
-
 
 
 ===============DISCLAIMER=========================================================
@@ -99,3 +99,4 @@ pop:		\*
 exec:		\$
 condition:	\? <push-list> : <push-list>
 function:	{ (.+?) ; (<condition>|<push-list>|<pop>|<exec>)+}
+```
