@@ -43,7 +43,7 @@ You can put any arrangement of items in a particular push-list.  For instance,
 and the integer 123 onto the numeric queue.
 
 There are also operator items which we can push onto the operator stack.  You can see a list of
-these operators under the section [operator-items](##OperatorItems)
+these operators under the section [operator-items](##operator-items)
 
 Push-lists work sequentially from left-to-right, so the push-list ```[log pops]``` would first append the operator-item "log" and then the operator-item "pops"
 to the operator queue.
@@ -203,13 +203,14 @@ There are two "levels of computation" available in Conveyor, control operators
 which explicity direct program flow by direct queue-manipulations--and item operators
 which are operators which exist on the "operator" queue.
 
-
+```
 ===============DISCLAIMER=========================================================
 In case it was not already clear, this language is not intended for anything
 remotely associated with professional level code.  This language is intended as a
 bit of a toy to play around with a model of computation entirely centered
 around the Queue data-structure.
 ===================================================================================
+
 
 	Grammer of the Language:
 
